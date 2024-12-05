@@ -628,7 +628,7 @@ public class BitcoinJob
                         var payeeReward = Community.Amount;
 
                         tx.Outputs.Add(payeeReward, payeeAddress);
-                        //reward -= payeeReward;
+                        reward -= payeeReward;
                     }
                 }
             }
@@ -698,7 +698,7 @@ public class BitcoinJob
                         var payeeReward = Developer.Amount;
 
                         tx.Outputs.Add(payeeReward, payeeAddress);
-                        //reward -= payeeReward;
+                        reward -= payeeReward;
                     }
                 }
             }
