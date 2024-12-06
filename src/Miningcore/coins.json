@@ -3243,6 +3243,45 @@
         "explorerTxLink": "https://explorer.joss.network/tx/{0}",
         "explorerAccountLink": "https://explorer.joss.network/address/{0}"
     },
+    "ogva": {
+        "name": "OGVA Network",
+        "symbol": "OGVA",
+        "family": "bitcoin",
+        "website": "https://ogva.net/",
+        "github": "https://github.com/ogvanetwork/ogva-core",
+        "market": "",
+        "twitter": "https://x.com/Ogva_network",
+        "telegram": "https://t.me/ogvanetwork",
+        "discord": "https://discord.gg/Z3FKGuzKXv",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "neoscrypt",
+            "args": [
+                0
+            ]
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "neoscrypt",
+                    "args": [
+                        0
+                    ]
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasCommunity": true,
+        "hasDeveloper": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.ogva.net/block/$hash$",
+        "explorerTxLink": "https://explorer.ogva.net/tx/{0}",
+        "explorerAccountLink": "https://explorer.ogva.net/address/{0}"
+    },
     "ultronai": {
         "name": "UltronAI",
         "canonicalName": "UltronAI",
