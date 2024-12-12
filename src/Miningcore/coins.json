@@ -6336,5 +6336,36 @@
         "explorerBlockLink": "https://kcnxp.com/block/$height$",
         "explorerTxLink": "https://kcnxp.com/tx/{0}",
         "explorerAccountLink": "https://kcnxp.com/address/{0}"
+    },
+    "akitacoin": {
+        "name": "Akitacoin",
+        "symbol": "AKIC",
+        "family": "progpow",
+        "progpower": "kawpow",
+        "website": "https://www.akitacoin.net/",
+        "github": "https://github.com/Cryptic-dev1/Akitacoin",
+        "market": "",
+        "twitter": "https://twitter.com/AkitacoinDev",
+        "telegram": "https://t.me/+58Y7__nzQgE1NzM0",
+        "discord": "https://discord.gg/juUfsDk6CS",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "sha256d"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasCommunityAddress": true,
+        "shareMultiplier": 1,
+        "explorerBlockLink": "https://akitacoin.website/block/$hash$",
+        "explorerTxLink": "https://akitacoin.website/tx/{0}",
+        "explorerAccountLink": "https://akitacoin.website/address/{0}"
     }
 }
