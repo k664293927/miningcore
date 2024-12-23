@@ -6399,5 +6399,38 @@
         "explorerBlockLink": "https://akitacoin.website/block/$hash$",
         "explorerTxLink": "https://akitacoin.website/tx/{0}",
         "explorerAccountLink": "https://akitacoin.website/address/{0}"
+    },
+    "blobfish": {
+        "name": "Blobfish",
+        "symbol": "SQSH",
+        "family": "progpow",
+        "progpower": "kawpow",
+        "website": "https://www.blobfishcoin.meme/",
+	"github": "https://github.com/BFCD/blobfish",
+        "explorer": "https://explorer.blobfishcoin.meme/",
+        "market": "",
+        "twitter": "https://x.com/BlobfishcoinX",
+        "telegram": "",
+        "discord": "https://discord.gg/3pZ2pbUtyG",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "sha256d"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasMasterNodes": true,
+        "hasPayee": true,
+        "shareMultiplier": 1,
+        "explorerBlockLink": "https://explorer.blobfishcoin.meme/block/$hash$",
+        "explorerTxLink": "https://explorer.blobfishcoin.meme/tx/{0}",
+        "explorerAccountLink": "https://explorer.blobfishcoin.meme/address/{0}"
     }
 }
