@@ -213,10 +213,7 @@ public class CryptonoteJob
             Span<byte> blockHash = stackalloc byte[32];
             
             // Not all Cryptonote coins are equal
-            if(blobType == ZephyrConstants.BlobType)
-                CryptonoteBindings.GetBlockId(blob, blockHash, blobType);
-
-            else if(blobType == EquilibriaConstants.EquilibriaBlobType)
+            if(blobType == ZephyrConstants.BlobType || blobType == EquilibriaConstants.EquilibriaBlobType || blobType == ScalaConstants.ScalaBlobType)
                 CryptonoteBindings.GetBlockId(blob, blockHash, blobType);
 
             else
