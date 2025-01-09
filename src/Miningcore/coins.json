@@ -6432,5 +6432,34 @@
         "explorerBlockLink": "https://explorer.blobfishcoin.meme/block/$hash$",
         "explorerTxLink": "https://explorer.blobfishcoin.meme/tx/{0}",
         "explorerAccountLink": "https://explorer.blobfishcoin.meme/address/{0}"
+    },
+    "argoneum": {
+        "name": "Argoneum",
+        "symbol": "AGM",
+        "family": "bitcoin",
+        "website": "https://argoneum.net/",
+        "github": "https://github.com/Argoneum/argoneum",
+        "market": "",
+        "twitter": "",
+        "discord": "https://discordapp.com/invite/3g6XmKE",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "phi2"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "phi2"
+                }
+            ]
+        },
+        "hasMasterNodes": true,
+        "shareMultiplier": 256,
+        "explorerBlockLink": "https://chainz.cryptoid.info/agm/block.dws?$height$.htm",
+        "explorerTxLink": "https://chainz.cryptoid.info/agm/tx.dws?{0}.htm",
+        "explorerAccountLink": "https://chainz.cryptoid.info/agm/address.dws?{0}.htm"
     }
 }
