@@ -1905,9 +1905,12 @@
         },
         "blockHasher": {
             "hash": "reverse",
-            "args": [ { "hash": "minotaurx" } ]
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
         },
-        "isPseudoPoS": true,
         "explorerBlockLink": "https://chainz.cryptoid.info/lcc/block.dws?$height$.htm",
         "explorerTxLink": "https://chainz.cryptoid.info/lcc/tx.dws?{0}.htm",
         "explorerAccountLink": "https://chainz.cryptoid.info/lcc/address.dws?{0}.htm"
