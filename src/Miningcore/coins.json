@@ -6464,5 +6464,35 @@
         "explorerBlockLink": "https://chainz.cryptoid.info/agm/block.dws?$height$.htm",
         "explorerTxLink": "https://chainz.cryptoid.info/agm/tx.dws?{0}.htm",
         "explorerAccountLink": "https://chainz.cryptoid.info/agm/address.dws?{0}.htm"
+    },
+    "crionic": {
+        "name": "Crionic",
+        "canonicalName": "Crionic",
+        "symbol": "CRNC",
+        "family": "bitcoin",
+        "website": "https://coin.crionic.org/",
+        "github": "https://github.com/diabaths/Crionic-Coin",
+        "twitter": "",
+        "market": "https://coinpaprika.com/coin/crnc-crionic",
+        "discord": "https://discord.com/invite/SKDkjcJTKM",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "yespowerltncg"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "shareMultiplier": 65536,
+        "coinbaseMinConfimations": 110,
+        "explorerBlockLink": "https://explorer.crionic.org/block/$height$",
+        "explorerTxLink": "https://explorer.crionic.org/tx/{0}",
+        "explorerAccountLink": "https://explorer.crionic.org/address/{0}"
     }
 }
